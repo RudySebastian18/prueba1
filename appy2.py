@@ -161,8 +161,7 @@ def quiz():
 def main():
     st.title("Historia de Richard Stallman y las 4 libertades del software libre")
     st.image(
-    "https://upload.wikimedia.org/wikipedia/commons/5/55/Richard_Stallman_photographed_by_Kilian_Mazzone.jpg",
-    caption="Richard Stallman",
+    "C:\Users\GARCIACUCCHIRUDYSEBA\Downloads\descarga.jpg",
     use_container_width=True
 )
 
