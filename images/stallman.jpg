@@ -1,1 +1,5 @@
-st.image("https://upload.wikimedia.org/wikipedia/commons/5/55/Richard_Stallman_photographed_by_Kilian_Mazzone.jpg", caption="Richard Stallman", use_column_width=True)
+st.image(
+    r"C:\Users\GARCIACUCCHIRUDYSEBA\Downloads\descarga.jpg",
+    caption="Richard Stallman",
+    use_container_width=True
+)
