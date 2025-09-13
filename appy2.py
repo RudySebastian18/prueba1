@@ -160,7 +160,7 @@ def quiz():
 
 def main():
     st.title("Historia de Richard Stallman y las 4 libertades del software libre")
-
+    st.info("Autor Rudy Sebastian Garcia Cucchi")
 
     mostrar_historia()
     mostrar_historia()
