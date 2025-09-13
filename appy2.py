@@ -168,6 +168,6 @@ def main():
     mostrar_libertades()
     st.markdown("---")
     quiz()
-    st.in("Desarrollado en el curso de software Libre 2025")
+    st.info("Desarrollado en el curso de software Libre 2025")
 if __name__ == "__main__":
     main()
