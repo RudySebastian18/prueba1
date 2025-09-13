@@ -163,8 +163,9 @@ def main():
     st.image(
     "https://upload.wikimedia.org/wikipedia/commons/5/55/Richard_Stallman_photographed_by_Kilian_Mazzone.jpg",
     caption="Richard Stallman",
-    use_column_width=True
-    )
+    use_container_width=True
+)
+
 
     mostrar_historia()
     mostrar_historia()
