@@ -4,48 +4,58 @@ import streamlit as st
 st.markdown(
     """
     <style>
-    /* Color de fondo */
+    /* Fondo relajante (verde agua suave) */
     .stApp {
-        background: linear-gradient(135deg, #667eea, #764ba2);
-        color: #f0f0f0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #a8edea, #fed6e3);
+        color: #222222;
+        font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         padding: 2rem;
     }
 
-    /* Títulos */
+    /* Títulos con fuente más llamativa y color vibrante */
     h1, h2, h3, h4, h5 {
-        color: #ffe066;
-        font-weight: 700;
+        color: #1b4965; /* Azul oscuro */
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        text-shadow: 1px 1px 2px #cce3e6;
     }
 
-    /* Texto */
+    /* Texto normal */
     .stText {
-        color: #f0f0f0;
+        color: #264653; /* Azul moderado */
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.6;
     }
 
-    /* Botones */
+    /* Botones estilizados */
     div.stButton > button {
-        background-color: #ff6f61;
+        background-color: #2a9d8f; /* Verde azulado */
         color: white;
         border: none;
-        border-radius: 8px;
-        padding: 0.5rem 1.5rem;
-        font-size: 1rem;
-        font-weight: 600;
+        border-radius: 10px;
+        padding: 0.6rem 1.8rem;
+        font-size: 1.1rem;
+        font-weight: 700;
         transition: background-color 0.3s ease;
         cursor: pointer;
+        box-shadow: 0 4px 6px rgba(42, 157, 143, 0.4);
     }
 
     div.stButton > button:hover {
-        background-color: #ff3b2f;
-        color: #fff;
+        background-color: #21867a; /* Verde azulado más oscuro */
+        color: #e0f7f4;
     }
 
     /* Separadores */
     hr {
-        border: 1px solid #ffe066;
+        border: 2px solid #2a9d8f;
+        margin: 2rem 0;
     }
     </style>
+
+    <!-- Fuente Poppins desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
     """,
     unsafe_allow_html=True
 )
